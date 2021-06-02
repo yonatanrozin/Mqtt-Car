@@ -2,7 +2,6 @@
 A wireless, remote-controlled car that is controlled from anywhere via an online controller. 
 A VERY in-depth look into the programming process can be found on [my blog](https://wp.nyu.edu/yonatanrozin/mqtt-car/)!
 A look into the fabrication process can be found on [my blog](https://wp.nyu.edu/yonatanrozin/fabricating-a-toy-car/) as well.
-A video demonstration can be found [here](https://youtu.be/IXH6IJjd2Dk).
 
 ## Introduction
 
