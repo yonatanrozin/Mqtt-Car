@@ -29,8 +29,9 @@ A third, more administrative improvement, also enabled by the private network, i
 For developers:
 - The [Arduino IDE](https://www.arduino.cc/en/software)
 - A [shiftr.io](shiftr.io) broker
-- A Node-RED server
 - A SQLite database, or any other SQL database
+- A Node-RED server with the [Node-RED JSON file](https://github.com/yonatanrozin/Mqtt-Car/blob/main/mqttCar_node-RED.json) imported (note that any MQTT or SQL nodes must be reconfigured with the proper broker and database names and security credentials)
+
 
 For users:
 - (optional) A mobile device with a QR-scanner
