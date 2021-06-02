@@ -42,3 +42,9 @@ For users:
 ![A system diagram of user(s), an Arduino and Node-RED communicating through a central Shiftr.io broker. Node-RED additionally communicates with userQueue.txt and an mqttcar.db SQLite database](https://github.com/yonatanrozin/Mqtt-Car/blob/main/MQTT%20Car%20System%20Diagram.jpg)
 
 **EDIT: the userQueue.txt function above has been integrated into the mqttcar.db database.**
+
+### Schematic Diagram
+
+The schematic diagram for this project is identical to that of the previous BLE-controlled version:
+
+![A schematic diagram of 2 DC motors wired to an Arduino Nano 33 IoT through a TB6612FNG motor driver and a 9V battery](https://github.com/yonatanrozin/Mqtt-Car/blob/main/BLE%20Car%20Schematic.jpg)
