@@ -48,3 +48,7 @@ For users:
 The schematic diagram for this project is identical to that of the previous BLE-controlled version:
 
 ![A schematic diagram of 2 DC motors wired to an Arduino Nano 33 IoT through a TB6612FNG motor driver and a 9V battery](https://github.com/yonatanrozin/Mqtt-Car/blob/main/BLE%20Car%20Schematic.jpg)
+
+## Credits
+
+A huge special thanks to [Tom Igoe](https://tigoe.com/) for his [connected devices class](https://itp.nyu.edu/classes/connected-devices/syllabus-spring-2021/schedule-spring-2021/) and for providing a ton of helpful insight and code examples!
