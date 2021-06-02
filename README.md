@@ -40,3 +40,5 @@ For users:
 ### System Diagram
 
 ![A system diagram of user(s), an Arduino and Node-RED communicating through a central Shiftr.io broker. Node-RED additionally communicates with userQueue.txt and an mqttcar.db SQLite database](https://github.com/yonatanrozin/Mqtt-Car/blob/main/MQTT%20Car%20System%20Diagram.jpg)
+
+**EDIT: the userQueue.txt function above has been integrated into the mqttcar.db database.**
