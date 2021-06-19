@@ -27,6 +27,7 @@ A third, more administrative improvement, also enabled by the private network, i
 
 For developers:
 - The [Arduino IDE](https://www.arduino.cc/en/software)
+- The [UI files](https://github.com/yonatanrozin/Mqtt-Car/tree/main/UI) hosted on Glitch or any other HTML hosting platform (note that the MQTT credentials must be added to script.js)
 - A [shiftr.io](shiftr.io) broker
 - A SQLite database, or any other SQL database
 - A Node-RED server with the [Node-RED JSON file](https://github.com/yonatanrozin/Mqtt-Car/blob/main/mqttCar_node-RED.json) imported (note that any MQTT or SQL nodes must be reconfigured with the proper broker and database names and security credentials)
