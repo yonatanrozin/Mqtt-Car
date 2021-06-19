@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js" type="text/javascript"></script>
+    <script src="script.js"></script> 
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=no">
+  </head>
+
+  <body>
+    <button class="MQTTButton" id = "MQTTButton" onclick="MQTTConnect()">Connect to MQTT</button>
+    <p id="timer"></p>
+    
+    <p id="introP"> 
+      Welcome to Yonatan Rozin's wireless car controller!     
+      <br><br>  
+      This controller allows users to control the car wirelessly for up to 30 seconds on a first-come-first-served 
+      basis. After 30 seconds, the controls will be automatically transfered to the next user in the queue. 
+      Once your turn has ended, feel free to refresh the page for another turn. 
+      Note that this controller does NOT work while connected to the NYU WiFi network.
+      <br><br>
+      To join the queue, press the <b>Connect to MQTT</b> button above! 
+      <br><br>
+      A huge thanks to Tom Igoe for his endless expertise and guidance in making this project happen!
+    </p> 
+    <p id="userP"></p>
+
+    <button class="dirButton" id = "buttonF" ontouchstart="sendVal(1)" ontouchend="sendVal(0)" 
+            onmousedown="sendVal(1)" onmouseup="sendVal(0)" disabled = "true" >↑</button>
+    <button class="dirButton" id = "buttonB" ontouchstart="sendVal(2)" ontouchend="sendVal(0)" 
+            onmousedown="sendVal(2)" onmouseup="sendVal(0)" disabled = "true">↓</button>
+    <button class="dirButton" id = "buttonL" ontouchstart="sendVal(3)" ontouchend="sendVal(0)" 
+            onmousedown="sendVal(3)" onmouseup="sendVal(0)" disabled = "true">←</button>
+    <button class="dirButton" id = "buttonR" ontouchstart="sendVal(4)" ontouchend="sendVal(0)" 
+            onmousedown="sendVal(4)" onmouseup="sendVal(0)" disabled = "true">→</button>
+    
+  </body>
+</html>
