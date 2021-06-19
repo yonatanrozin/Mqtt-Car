@@ -1,0 +1,69 @@
+body {
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+button {
+  background-color: aqua;
+  font-size: 50px;
+  padding: 0px;
+}
+
+
+#introP {
+  position: absolute;
+  top: 25%;
+  padding: 20px
+}
+
+.dirButton {
+  visibility : hidden;
+}
+
+#buttonF {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  width: 20%;
+  height: 20%;
+}
+#buttonL {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  width: 20%;
+  height: 20%;
+}
+#buttonR {
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  width: 20%;
+  height: 20%;
+}
+#buttonB {
+  position: absolute;
+  left: 40%;
+  top: 70%;
+  width: 20%;
+  height: 20%;
+}
+#MQTTButton {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 80%;
+  height: 15%;
+  font-size: 30px;
+}
+
+#timer {
+  position:absolute;
+  font-size: 30px;
+  left: 11%;
+  top: 17%;
+}
