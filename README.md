@@ -18,8 +18,7 @@ A third, more administrative improvement, also enabled by the private network, i
 ## Materials
 
 ### Hardware
-- An [Arduino Nano 33 IoT](https://store.arduino.cc/usa/nano-33-iot) 
-- An [Arduino Nano 33 IoT](https://store.arduino.cc/usa/nano-33-iot) 
+- An [Arduino Nano 33 IoT](https://store.arduino.cc/usa/nano-33-iot) with the [Arduino code](https://github.com/yonatanrozin/Mqtt-Car/tree/main/mqttcar) uploaded and any WIFI/MQTT info updated in the [config.h file](https://github.com/yonatanrozin/Mqtt-Car/blob/main/mqttcar/config.h).
 - A [TB6612FNG Motor Driver](https://www.digikey.com/catalog/en/partgroup/sparkfun-motor-driver-dual-tb6612fng/77350?utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Cart&utm_term=&utm_content=General&gclid=CjwKCAjw6fCCBhBNEiwAem5SOxlKTUwhOICaOWppYjjd_7NRXeuuupc6Qg5i4EwhrP_Fxs8bAraEchoCxeYQAvD_BwE)
 - 2 of any kind of DC motor (I used the same [N20 Encoded Gearmotors](https://www.adafruit.com/product/4641) that I used in the previous project)
 - A 9V battery holder
