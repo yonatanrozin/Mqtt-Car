@@ -52,4 +52,6 @@ The schematic diagram for this project is identical to that of the previous BLE-
 
 ## Credits
 
-A huge special thanks to [Tom Igoe](https://tigoe.com/) for his [connected devices class](https://itp.nyu.edu/classes/connected-devices/syllabus-spring-2021/schedule-spring-2021/) and for providing a ton of helpful insight and code examples!
+- A huge thanks to [Tom Igoe](https://tigoe.com/) for his [connected devices class](https://itp.nyu.edu/classes/connected-devices/syllabus-spring-2021/schedule-spring-2021/) and for providing a ton of helpful insight and code examples!
+- Thanks as well to [Ben Light](http://blightdesign.com/) for his [fabrication class](https://itp.nyu.edu/fab/intro_fab/) and introducing me to the wonderful world of fabrication!
+- 
